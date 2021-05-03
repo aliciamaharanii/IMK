@@ -9,7 +9,7 @@ a {
 }
 .medsos {
 	padding: 5px 0;
-	background-color: #1abc9c;
+	background-color: purple;
 }
 .medsos ul li {
 	display: inline-block;
@@ -44,16 +44,16 @@ header ul li a {
 	display: inline-block; 
 }
 header ul li a:hover {
-	background-color: #00C7AC;
+	background-color: pink;
 	color: white; 
 }
 .active {
-	background-color: #1abc9c;
+	background-color: pink;
 	color: #1abc9c; 
 }
 .banner {
 	height: 60vh;
-	background-image: url('../img/banner.jpg');
+	background-image: url('../img/argodeon.jpg');
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -67,6 +67,7 @@ header ul li a:hover {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	background-image: url('../img/argodeon.jpg');
 	background-color: #1abc9c;
 }
 .banner h2 {
